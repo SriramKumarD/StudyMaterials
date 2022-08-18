@@ -1,0 +1,26 @@
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+
+public class Scheduletask {
+
+    private static int count = 0;
+
+    public static void main(String[] args) throws InterruptedException {
+
+        ScheduledExecutorService ses = Executors.newScheduledThreadPool(1);
+
+        // init Delay = 5, repeat the task every 1 second
+        ScheduledFuture<?> scheduledFuture = ses.scheduleAtFixedRate(new Runnable(
+        		
+        		public void run() {
+        			
+        		}
+        		
+        		
+        		), 5, 1, TimeUnit.SECONDS);
+
+
+
+    }
+}

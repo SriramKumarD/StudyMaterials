@@ -1,0 +1,5 @@
+package com.srird.springsecurityjwt.service;
+
+public class MyUserDetailsService {
+
+}

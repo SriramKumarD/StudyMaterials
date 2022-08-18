@@ -1,0 +1,135 @@
+
+@Component
+class B {
+
+test(){
+
+}
+}
+
+
+class A {
+
+@Autowired
+private B obj;
+
+@Autowired
+private B obj1;
+
+
+}
+
+@Entity
+@Table("conf")
+class Conference {
+
+@Id
+@Genertara()
+private int ConferenceId;
+
+
+private String parti;
+
+
+}
+
+
+class meeting
+
+
+@Entity
+class user {
+
+
+@OnetoOne
+private Conference conf;
+
+
+https://prd-webex/
+
+@RestController
+@RequestMapping("\conference")
+class WebexController{
+
+
+Lock lock = new ReenterentLock();
+
+lock.lock();
+Debit() {
+
+}
+
+
+@RequestMapping("\getDetails\{id}")
+public List<Conference> getDetails (@) {
+
+service.get(id)
+
+}
+
+ConfererRespoi extends CRUDRespository<Conference, Long> 
+
+
+service {
+@Autowired
+ConfererRespoi
+
+ConfererRespoi.get(confid);
+
+@Query(insert into conf where )
+ConfererRespoi.save(conferobject);
+
+
+
+
+}
+
+
+
+
+ 
+
+
+
+1->2->4->6->
+
+6->1->2->4->Null
+4->6->1->2->null
+
+Node {
+int data
+Node next;
+}
+
+node.next ==  null
+ node -> header
+ 
+node.prev.next = null 
+
+
+
+
+
+
+
+
+
+
+
+C V B B V D V
+
+
+LinkedList Rotation
+Find the Element which is having leaser difference in given k
+
+
+
+@Beans
+@Autowired
+@Primary
+@Qualifier
+@Query
+
+@Inject
+
+what is the use of @Bean

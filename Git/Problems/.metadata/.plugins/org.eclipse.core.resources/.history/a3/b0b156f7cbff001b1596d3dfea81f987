@@ -1,0 +1,25 @@
+
+public class StaticCls {
+	static int count = 0;
+	
+	int rollno ;
+	String name;
+	static String clgName = "MIT";
+	
+	StaticCls(){
+		count++;
+		System.out.println("Count "+ count);
+	}
+	StaticCls(int no, String name){
+		this.rollno = no;
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		StaticCls obj1 = new StaticCls();
+		StaticCls obj2 = new StaticCls();
+		StaticCls obj3 = new StaticCls();
+
+	}
+
+}

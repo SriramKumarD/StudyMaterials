@@ -1,0 +1,142 @@
+1) HastSet internal working
+2) HashMap internal working
+3) Profiles -> Microservices
+4) How to communicate one API to another API (RestTemplate synch) -> Asynch (WebclientBuilder)
+5) Post and Put ()
+6) Exception Handling in spring boot
+7) @Controller Advice
+Class A {
+	printA()
+	
+	
+}
+
+class B extends A{
+	printA();
+	get();
+
+}
+
+class main {
+ A obj = new B();
+ 
+ obj.get(); //What will return?
+}
+
+9) @HystrixCommand
+
+10) Actuator
+11) Production -> How to handle that 
+
+
+
+StreamAPI
+Optional 
+
+
+Microservices
+SpringBoot
+@OneToMany(Cascde=cascadeType.ALL,fetch= fetchType.LAZY)
+NativeQuery
+@NamedQuery
+@Query
+fetch
+
+
+Pending :
+
+
+What is Predicate 
+
+
+
+Serializable
+
+Serializable Singleton
+Clonable Singleton
+
+
+
+Java :
+
+Aggregation and Composition
+Java memory Management
+
+
+
+
+
+
+0s 1s 2s 
+
+0,1,2,0,1,2,2
+
+0,0,1,1,2,2,2
+
+
+Problem solving - One question
+
+Springboot related questions and Microservices
+
+System design 
+
+
+
+
+
+
+26-May : System Design -> Paytm 
+
+27-May : 
+
+28-May : Mind tree 
+
+30-May : Fiserv
+
+31-May : Tech Mahendra 
+
+
+https://www.jobsincopenhagen.com/
+
+https://eth-gethired.ch/en/
+
+Problem 1 : 
+
+Given a string ‘str’ of digits and an integer ‘n’, build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
+Input: str = "121198", n = 2
+Output: "1118"
+
+str = "1432219"
+n=3;
+1432912
+
+Problem 2: 
+
+Find a missing element in array
+
+Problem 3:
+
+Valid Parentheses
+
+
+String s= {{{}}}{
+
+is a valid one 
+
+What a standards we needs to follow to build a Microservice Architecture
+
+Hystrix Command
+
+Problem 4: Star Diamond printing
+Java 8 concepts
+SOLID design principle
+quality Gates in jenkins
+design patterns
+SDLC concepts
+Agile Flow
+UNIT Testing with Mockito
+Microservices patterns like SAGA, CQRS, event driven architecture, Security, API gateway, CAP theorem, SQL VS NO SQL databases.
+Java streams and parallel streams
+Time and space complexity calculations of algorithm
+Spring security.
+

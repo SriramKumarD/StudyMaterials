@@ -1,0 +1,8 @@
+package com.srird.springsecurity.springsecurity;
+
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class SpringSecurityConfigurer extends WebSecurityConfigurerAdapter {
+
+
+}

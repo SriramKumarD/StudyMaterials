@@ -1,0 +1,641 @@
+What does HashMap represent in data structure?
+HashMap intreral working 
+Why arrayList is not synchronized
+ArrayList internal working
+Set internal working
+Bean life cycle 
+Default scope
+@Qualifer
+@Autowired
+@Primary
+Why set is not maintaining the order
+:::::Questions:::::
+
+	1.	@RestController vs @Controller
+	2.	@ManyToMany Annotation - CascadeType, FetchType
+	3.	@Column (length, nullable)
+	4.	Native Query and Named Query
+	5.  Actuator usage
+	6.  Ymal and properties
+	7.  @Profile
+	8.  @Transactional
+	9.  @ExceptionHandler
+	10. @ControllerAdvice
+
+:::::ANS:::::
+
+
+
+
+26-May : System Design -> Paytm 
+
+27-May : 
+
+28-May : Mind tree 
+
+30-May : Fiserv
+
+31-May : Tech Mahendra 
+
+
+https://www.jobsincopenhagen.com/
+
+https://eth-gethired.ch/en/
+
+Problem 1 : 
+
+Given a string ‘str’ of digits and an integer ‘n’, build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
+Input: str = "121198", n = 2
+Output: "1118"
+
+str = "1432219"
+n=3;
+1432912
+
+Problem 2: 
+
+Find a missing element in array
+
+Problem 3:
+
+Valid Parentheses
+
+
+String s= {{{}}}{
+
+is a valid one 
+
+What a standards we needs to follow to build a Microservice Architecture
+
+Hystrix Command
+
+Problem 4: Star Diamond printing
+Java 8 concepts
+SOLID design principle
+quality Gates in jenkins
+design patterns
+SDLC concepts
+Agile Flow
+UNIT Testing with Mockito
+Microservices patterns like SAGA, CQRS, event driven architecture, Security, API gateway, CAP theorem, SQL VS NO SQL databases.
+Java streams and parallel streams
+Time and space complexity calculations of algorithm
+Spring security.
+
+
+
+Friday:
+    Spring Cloud 
+34.	Config Server in Spring boot
+35. OAuth and JWT
+
+
+Tmrw:
+14.	Java 8 features
+    Streams , Lambda Expressions,Optional 
+19.	Stream Filter and map function
+
+
+
+Comparator using java 8
+20.	Solid Principles
+
+
+
+
+
+
+
+Monolithic and Microservices
+@Transactional
+If two methods are having the same path but different HTTP methods
+Profiles
+Circuit breaker pattern
+Hystrix command
+Calling ExternalAPI update (Rollback)
+ArrayList and vector
+@Entity
+Logger
+actuator usage
+
+hoe set the tomeout for API.
+
+
+hashMap Internal working
+
+
+
+Comparator and Comparable difference
+
+== and equals difference
+
+Stingbuffer and StringBuilder
+
+Passing null argument to the methods
+
+
+String a = "kumar";
+String b = "ram"
+Sting c = "manju"
+Sting d = "manju"
+Sting e = new String("manju");
+String f = new String("ram");
+c==d
+c.equals(e)
+c==e
+b==f
+
+
+
+
+
+
+1) HastSet internal working
+2) HashMap internal working
+3) Profiles -> Microservices
+4) How to communicate one API to another API (RestTemplate synch) -> Asynch (WebclientBuilder)
+5) Post and Put ()
+6) Exception Handling in spring boot
+7) @Controller Advice
+Class A {
+	printA()
+	
+	
+}
+
+class B extends A{
+	printA();
+	get();
+
+}
+
+class main {
+ A obj = new B();
+ 
+ obj.get(); //What will return?
+}
+
+9) @HystrixCommand
+
+10) Actuator
+11) Production -> How to handle that 
+
+
+
+StreamAPI
+Optional 
+
+
+Microservices
+SpringBoot
+@OneToMany(Cascde=cascadeType.ALL,fetch= fetchType.LAZY)
+NativeQuery
+@NamedQuery
+@Query
+fetch
+
+
+Pending :
+
+
+What is Predicate 
+
+
+
+Serializable
+
+Serializable Singleton
+Clonable Singleton
+
+
+
+Java :
+
+Aggregation and Composition
+Java memory Management
+
+
+
+
+
+
+0s 1s 2s 
+
+0,1,2,0,1,2,2
+
+0,0,1,1,2,2,2
+
+
+Problem solving - One question
+
+Springboot related questions and Microservices
+
+System design 
+
+
+
+
+
+
+26-May : System Design -> Paytm 
+
+27-May : 
+
+28-May : Mind tree 
+
+30-May : Fiserv
+
+31-May : Tech Mahendra 
+
+
+https://www.jobsincopenhagen.com/
+
+https://eth-gethired.ch/en/
+
+Problem 1 : 
+
+Given a string ‘str’ of digits and an integer ‘n’, build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
+Input: str = "121198", n = 2
+Output: "1118"
+
+str = "1432219"
+n=3;
+1432912
+
+Problem 2: 
+
+Find a missing element in array
+
+Problem 3:
+
+Valid Parentheses
+
+
+String s= {{{}}}{
+
+is a valid one 
+
+What a standards we needs to follow to build a Microservice Architecture
+
+Hystrix Command
+
+Problem 4: Star Diamond printing
+Java 8 concepts
+SOLID design principle
+quality Gates in jenkins
+design patterns
+SDLC concepts
+Agile Flow
+UNIT Testing with Mockito
+Microservices patterns like SAGA, CQRS, event driven architecture, Security, API gateway, CAP theorem, SQL VS NO SQL databases.
+Java streams and parallel streams
+Time and space complexity calculations of algorithm
+Spring security.
+
+1) HastSet internal working
+2) HashMap internal working
+3) Profiles -> Microservices
+4) How to communicate one API to another API (RestTemplate synch) -> Asynch (WebclientBuilder)
+5) Post and Put ()
+6) Exception Handling in spring boot
+7) @Controller Advice
+Class A {
+	printA()
+	
+	
+}
+
+class B extends A{
+	printA();
+	get();
+
+}
+
+class main {
+ A obj = new B();
+ 
+ obj.get(); //What will return?
+}
+
+9) @HystrixCommand
+
+10) Actuator
+11) Production -> How to handle that 
+
+
+
+StreamAPI
+Optional 
+
+
+Microservices
+SpringBoot
+@OneToMany(Cascde=cascadeType.ALL,fetch= fetchType.LAZY)
+NativeQuery
+@NamedQuery
+@Query
+fetch
+
+
+What is Predicate 
+
+
+
+Serializable
+
+Serializable Singleton
+Clonable Singleton
+
+
+
+Java :
+
+Aggregation and Composition
+Java memory Management
+
+0s 1s 2s 
+
+0,1,2,0,1,2,2
+
+0,0,1,1,2,2,2
+
+
+Problem solving - One question
+
+Springboot related questions and Microservices
+
+System design 
+
+
+
+
+
+
+
+
+
+https://www.jobsincopenhagen.com/
+
+https://eth-gethired.ch/en/
+
+Problem 1 : 
+
+Given a string ‘str’ of digits and an integer ‘n’, build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
+Input: str = "121198", n = 2
+Output: "1118"
+
+str = "1432219"
+n=3;
+
+
+Problem 2: 
+
+Find a missing element in array
+
+Problem 3:
+
+Valid Parentheses
+
+
+String s= {{{}}}{
+
+is a valid one 
+
+What a standards we needs to follow to build a Microservice Architecture
+
+Hystrix Command
+
+Problem 4: Star Diamond printing
+Java 8 concepts
+SOLID design principle
+quality Gates in jenkins
+design patterns
+SDLC concepts
+Agile Flow
+UNIT Testing with Mockito
+Microservices patterns like SAGA, CQRS, event driven architecture, Security, API gateway, CAP theorem, SQL VS NO SQL databases.
+Java streams and parallel streams
+Time and space complexity calculations of algorithm
+Spring security.
+
+
+
+
+1) HashMap internal working
+2) Comparable and Comparator 
+3) Composition and Aggregation
+4) Consumer and Suppiler 
+5) Funcation Interface
+6) Microservice architecture
+7) Soild prinples
+8) Actuator
+7) @profiles
+8) Aynch rest call
+9) POST PUT PATCH
+10) Cascade in hibernate 
+11) First and second level cache
+12) @Transactionl internal working
+
+
+Count number of all employees form list with similar names and age>30
+Employee eList = list.stream.filter(s -> (s.age > 30)).collect(Collectors.list);
+
+Java 8 summingInt
+
+SQL questions
+
+second maximum salary 
+truncate and Delete in sql
+
+
+
+
+/*
+ * Click `Run` to execute the snippet below!
+ */
+
+import java.io.*;
+import java.util.*;
+
+/*
+ * To execute Java, please define "static void main" on a class
+ * named Solution.
+ *
+ * If you need more classes, simply define them inline.
+ */
+
+class Solution {
+  public static void main(String[] args) {
+
+    List<Company> list//list company 
+    Employee(id, name,salary);
+    Map<Integer, Inetger> map = new HashMap<Integer, Integer>();
+    AtomicInteger total;
+    list.stream.forEach(s -> {
+         s.employeeList.forEach(
+            emp -> {
+              total+= emp.salary;
+            }
+          )
+          map.put(s.id, total)
+    });
+    ArrayList<String> strings = new ArrayList<String>();
+    strings.add("Hello, World!");
+    strings.add("Welcome to CoderPad.");
+    strings.add("This pad is running Java " + Runtime.version().feature());
+
+    for (String string : strings) {
+      System.out.println(string);
+    }
+  }
+}
+
+
+
+
+Microservice -> Which design pattern
+
+Design pattern -> questions
+
+Object pool design pattern 
+Factory design pattern
+Singleton design pattern
+Joining two tables in JPA
+why string is immutable
+
+Java8 questions:
+
+-> Java 8 features.
+-> Consumer,Suppiler, BiConsumer and predicate.
+-> collect (total salary).summingint
+-> 
+
+
+
+
+
+problem 1 : 
+
+  0s, 1s and 2s sorting 
+  
+  
+input: {0, 1, 2, 0, 1, 2}
+otput: {0, 0, 1, 1, 2, 2}
+
+2 : Longest Palindromic sequence 
+
+
+ 
+
+
+
+
+
+
+
+Classloader
+PUT vs POST (Difference, Which one to use to do both create and update)
+Aggregation and Composition Eg
+Immutable class creation
+Singleton (Reflection, Serializable)
+readResolve and WriteReplace
+HashSet, TreeSet
+HashMap, TreeMap
+Multithreading(Executor, Future)
+Factory Design Pattern
+HashMap (Put Method, hashCode and Equals method)
+DAO Layer  & Annotation
+JMS Implementation
+Security Implementation
+Controller Annotation, DAO layer class annotation
+SQL Query  - Select highest salary emp in each dept
+Emp -> id, name, deptId, salary
+Dept -> deputed, name
+NOSQL Database
+Elastic Search
+Spring scope
+Junit - Mockito, Power Mockito
+Java Streams filter highest salary emp in each dept and put in a map<deptname, empObject>
+Interface - default and static methods
+Lambda Expressions
+Singleton Class
+ActiveMq vs RabbitMq
+Synchronised
+Multithreading -> Runnable interface
+JaxRs vs Jackson
+Prevent Singleton class to extend by another class
+Interface - method default access modifiers
+
+
+
+
+
+
+Program:
+1.	Shuffle array
+2.	String -> return Character with Count
+
+Questions:
+1.	@RestController vs @Controller
+2.	@ManyToMany Annotation - CascadeType, FetchType
+3.	@Column (length, nullable)
+4.	Native Query and Named Query
+
+
+Thursday:
+Spring Cloud 
+34.	Config Server in Spring boot
+
+Tmrw:
+14.	Java 8 features
+    Streams , Lambda Expressions,Optional 
+19.	Stream Filter and map function
+20.	Solid Principles
+
+
+
+18.	Optional Classes in JPA
+22.	If we delete the child row the parent row shouldn’t be deleted, how to handle this in JPA at annotation level
+23.	Annotation to create a third table based on mapping
+
+5.	@Transactional
+30.	Profiles in Spring Boot 
+31.	CICD pipeline
+32.	How to add a step to CICD pipeline
+35.	Default response configuration based on processing time and timelimiter annotation for response
+
+
+6.	PUT vs PATCH
+7.	showSql flag and then property to log sql query parameters
+8.	PathParam vs QueryParam
+9.	Request Processing along with filters
+10.	Different response codes
+11.	Arraylist and Vector
+12.	How to make an arraylist thread safe
+13.	HashMap vs HashTable
+15.	Functional Interface
+16.	How to create custom functional interface
+17.	A functional interface can have how many static methods
+
+
+
+21.	Singleton class creation (with serializable and Cloneable concept)
+24.	@Column - length and nullable property
+25.	Blob column definition in JPA
+
+26.	Rollback mechanism between Microservices - Circuit Breaker Pattern
+
+27.	End to end to create POST call - how the request will be processed
+
+28.	Conversion of DTO object to entity object -> Mapping part
+29.	Annotation to consume the request body
+33.	Dynamic Refresh - Properties refresh
+36.	Hystrix commands
+
+
+
+
+
+
+
+

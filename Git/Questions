@@ -1,0 +1,121 @@
+
+
+
+count-pairs-with-given-sum
+
+https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+
+https://www.geeksforgeeks.org/print-pairs-anagrams-given-array-strings/
+
+3rd Maixmum element from the array
+
+
+Java Memory Management. Heap and Stack Memory
+
+Design questions
+
+Problems
+
+Print all pairs of anagrams in a given array of strings
+
+
+Systems design
+
+Problems
+
+
+
+
+List<Users> lists = 
+
+lists.stream().sorted(Comparable.comparingString(Users::getFirstName)).collect(Collectors.toList());
+
+
+Class Employee {
+	int EmpId
+	String EmpDepartment
+	int Salary
+} 
+
+
+List<Employe> list = EmpList.stream().sorted(Comparable.comparingDouble(Employee::getSalary)).collect(Collectors.toList());
+
+
+Function<Integer, Integer > function = s -> s*2
+
+Sysout(function.apply(2))
+
+
+
+List<String> userList = new ArrayLis<String>();
+
+Map<String, String> map = new HashMap<String, String>();
+
+User user;
+
+if(userList.contains(user.getUserName)) {
+	Logger.info("User is already present");
+}
+else {
+	map.put(user.getUserName, user.getPwd);
+}
+
+What is deadLock and how to avoid that.
+
+What synchronization
+
+
+
+
+
+
+Aggrecation 
+Composition
+ArrayList and LinkedList
+Why is it better for manipulation
+What is externalization
+How to use the HTTPS -> What are things we needs to make a https
+failfast and failsafe
+Serailization and externalization
+Fail-Fast Iterators internal working:
+
+
+
+
+
+How to avoid the DB changes properties when restarting the Application
+ 
+What are design patterns are used in microservice architecture.
+How to communicate the each micro services using design patterns
+
+
+delete and truncate
+CompositKey
+
+
+GROUP_BY keyword
+
+JOINS
+
+
+
+
+Pending problems 
+
+Farthest
+Closet elements in zero
+BinarySearch using find the duplicate element first return the first element
+
+
+Problems
+
+Microservices questions and System Designs
+
+Java 8 questions
+
+
+Pending problems 
+
+Farthest
+Closet elements in zero
+BinarySearch using find the duplicate element first return the first element

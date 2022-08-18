@@ -1,0 +1,89 @@
+Generic
+MethodOverriding and Overloading
+RestAPI best practoses
+REST Security
+Why collection
+ReverseString using recursion
+StringPermuation
+What is Idomponetne
+and non idompent
+
+Why rest is stateless and https 
+
+if is stateless how maintaining the session
+
+
+
+https://reviewboard.corp.broadsoft.com/users/lumaher@cisco.com/
+DB
+
+ACID
+consistency
+why no-sql database
+Joins
+Second maximum salary        SharedMe/Cache
+
+Ecom
+
+User 1       Server1
+
+
+User 2       Serve2            DB
+ 
+
+User 3       Server3
+
+
+
+SpringProfiles
+
+
+@Autowired
+@Qualifer("test")
+
+
+<bean id = "test" class="Employee" scope=>
+
+<bean id = "test1" class = "Employee">
+
+
+
+
+
+package com.epam.interview;
+
+public class Example {
+
+
+    int [] array = {1,2,3,5};
+    
+    int arraySize = array.length + 1;
+    
+    //Missing no logic
+    
+    int sumAll = (arraySize * (arraySize+1) )/2;
+    
+    int sum = 0
+    
+    for (int i=0; i<=arraySize-2; i++) {
+        sum = sum+array[i];
+    }
+    
+
+    int missingNumber = sumAll - sum ;
+    
+    
+
+}
+
+Atomic Integer
+Volitle
+Synchronized
+byte and Integer comparasion
+Deadlock
+Equals returns true and hashcode is different 
+Instead of synchronized what we can use
+
+
+
+

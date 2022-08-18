@@ -1,0 +1,72 @@
+Given an integer array nums of size n, return the number with the value closest to 0 in nums. If there are multiple answers, return the number with the largest value.
+
+Input: nums = [-4,-2,1,4,8]
+Output: 1
+
+key = 0;
+max = 0;
+maxValue = 0; 
+
+for (int i=0; i< nums.length; i++) {
+		
+		int diff = key +nums[i];
+		
+		if(diff < max) {
+			max = diff;
+		}
+		
+		
+		
+		
+}
+
+Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+Input: nums = [1,1,0,1,1,1]
+Output: 3
+
+Input: nums = [1,0,1,1,0,1]
+Output: 2
+
+count = 0;
+countOnes = 0;
+for (int i=0; i<nums.length; i++) {
+
+	if(nums[i] == 0) {
+		if(count > countOnes ) {
+			countOnes = count;
+		}
+		count =0;
+	}
+	else {
+		count++;
+	}
+}
+	if(count > countOnes )
+		countOnes = count;
+		
+		
+		
+		
+		Input: 
+Employee table:
++----+-------+--------+-----------+
+| id | name  | salary | managerId |
++----+-------+--------+-----------+
+| 1  | Joe   | 70000  | 3         |
+| 2  | Henry | 80000  | 4         |
+| 3  | Sam   | 60000  | Null      |
+| 4  | Max   | 90000  | Null      |
++----+-------+--------+-----------+
+
+select name from employee ee where ee.salary > (select salary from Employee where managerId is null)
+
+
+
+
+
+SELECT name
+FROM employee w,
+     employee m
+WHERE w.manager_id = m.emp_id
+  AND w.salary > m.salary;

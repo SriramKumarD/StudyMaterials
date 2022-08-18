@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>5 -&gt; Adding Load balancing @LoadBalanced  and Level 1 Changes are done&\#x0A;\:)</message>\r\n<message>4-&gt; Configured Eureka Server and Made three clients as the Eureka&\#x0A;Clients</message>\r\n<message>3 -&gt; WebClient Changes</message>\r\n<message>First level Changes -&gt; Rest Templete</message>\r\n<message>Initial Changes for 3 APIs</message>\r\n<message>Worker thread</message>\r\n<message>Final Changes and Setting Deployment Changes</message>\r\n<message>Match Page Year Selector and Home Page</message>\r\n<message>Styled the Team Page</message>\r\n<message>Added match API in controller and match page in react App</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

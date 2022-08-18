@@ -1,0 +1,116 @@
+
+
+list<String> list = Arrays.asList("Test","Test2",Test3);
+
+
+list.stream.collect(Collectors.toMap(x->list.indexOf(x), x->x));
+
+
+
+Double x = new Double(123.45555);  
+Double x1 = new Double(123.45555);
+Long y = new Long(9887544);  
+
+
+x.equals(y) - False
+x.equals(123.45555) -> True
+x.equals(x1) -> True
+
+x = 123.45555 
+x1 = x ;
+x == x1 false
+
+['a','b','a','c','a','d','c','b','a'] arr
+
+Map<Character, Intger> map = new HashMap<Character, Intger>();
+
+for (Character c :  arr)  {
+
+if(map.containsKey(c))
+
+	map.put(c, map.get(c)+1);
+}
+else {
+	map.put(c,1);
+}
+
+iterating hashmap
+
+
+
+int a = 21, b = 9;
+
+swaping the numbers
+
+			x = x + y;
+	        y = x - y;
+	        x = x - y;
+
+
+Emp
+
+id name salary
+
+
+
+select MAX(salary) from emp where salary < (select MAX(Salary) from emp where salary)
+
+
+select MAX(salary) from emp groupby(salary) having
+
+
+emp1 emp2
+
+select value from emp1 LEFT JOIN emp2 ON emp1.id = emp2.id;
+
+
+select value from emp1,emp2 where emp1.id = emp2.id;
+
+
+Morning examples::::::one problem 
+
+
+@Transactional(rollback )
+@Tranactional class level and method level
+
+Spring applies the class-level annotation to all public methods of this class that we did not annotate with @Transactional.
+
+However, if we put the annotation on a private or protected method, Spring will ignore it without an error.
+
+Hibernate auto commit
+Opentransaction
+CurrentTransaction
+ConnectionPools
+FirstLevel and second level cache
+
+
+Java Memory Management
+Garbagge Collection
+@RestController
+@MicroServices RestTemplate and Webclient
+@EnableCircuitBreaker
+@EnableConfigurationProperties
+@Profiles
+
+
+public class ListCheck {
+
+	public static void main(String[] args) {
+		
+		List<Integer> list = Arrays.asList(1,2,3,4,5,6,6);
+		list.add(3);
+		
+		Iterator<Integer> itr = list.iterator();
+		
+		while(itr.hasNext()) {
+		
+			if(itr.next() == 2){
+				list.add(3);
+			}
+		}
+
+	}
+
+}
+
+How to authenticate the kafka server

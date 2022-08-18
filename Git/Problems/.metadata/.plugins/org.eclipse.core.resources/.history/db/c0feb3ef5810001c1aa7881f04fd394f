@@ -1,0 +1,5 @@
+package com.srird.springsecurity.springsecurity.services;
+
+public class UserDetailService {
+
+}

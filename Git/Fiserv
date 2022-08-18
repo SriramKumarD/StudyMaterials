@@ -1,0 +1,96 @@
+
+Thread
+
+ExceutorService 
+
+Future
+
+
+
+
+Final Class {
+
+}
+
+Stream using unique cars -> 
+
+empList.stream().flatMap(emp -> emp.getCars().stream())
+		.collect(Collectors.toSet())
+		.forEach( e -> System.out.println(e));
+
+Method Overloading rules and overriding the rules -> https://howtodoinjava.com/java/oops/method-overloading-overriding/
+
+Map and flatMap
+
+Protected and public
+
+Spring StarterWeb
+
+String and  Integer 
+
+https://www.geeksforgeeks.org/method-overloading-null-error-java/
+
+Java will always call the specific dataType 
+
+
+HashMap object 
+
+Younger management
+
+
+
+
+
+Singleton scope
+
+In Spring scope, which is threadsafe -> request scope is threadsafe
+
+Exception and finally --> 
+
+
+
+
+In repository layer which exception is will be thrown
+
+
+
+
+Second maximum salary 
+
+select MAX(salary) from employee where salary < (select MAX(salary) from employee);
+
+Spring JPA FetchType , cascade
+
+
+
+How to show the sql in logs
+
+spring.jpa.showsql = true . It won't log the preparedstatements
+
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+
+The first line log the sql
+The second line log the preparedstatements
+
+
+
+
+
+
+Java Stream 
+Optional -> https://howtodoinjava.com/java8/java-8-optionals-complete-reference/
+Bean factory and Application Context example
+@Primary
+@Autowired
+HashMap and ConcurrentHashMap
+@Scope usage
+@ComponentScan
+lock and unlock interface in Java 8  -> https://howtodoinjava.com/java/multi-threading/how-to-use-locks-in-java-java-util-concurrent-locks-lock-tutorial-and-example/
+
+dialect keyword
+
+ArrayList and Array
+
+
+Authentication nd Authorization

@@ -1,0 +1,40 @@
+
+public class StaticCls {
+	static int count = 0;
+	
+	int rollno ;
+	String name;
+	static String clgName = "MIT";
+	
+	static void change() {
+		clgName = "Anna University";
+	}
+	
+	StaticCls(){
+		count++;
+		System.out.println("Count "+ count);
+	}
+	StaticCls(int no, String name){
+		this.rollno = no;
+		this.name = name;
+	}
+	void print() {
+		System.out.println("RollNo= "+rollno+" "+"Name="+name+" "+"CLg="+clgName);
+	}
+
+	public static void main(String[] args) {
+		StaticCls obj1 = new StaticCls();
+		StaticCls obj2 = new StaticCls();
+		StaticCls obj3 = new StaticCls();
+		change();
+		StaticCls obj12 = new StaticCls(123,"Jhon");
+		StaticCls obj22 = new StaticCls(124, "Kumar");
+		StaticCls obj32 = new StaticCls(125, "data");
+		
+		obj12.print();
+		obj22.print();
+		obj32.print();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.srird.springsecurity.springsecurity;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SpringController {
+
+	public String welcome() {
+		
+	}
+}

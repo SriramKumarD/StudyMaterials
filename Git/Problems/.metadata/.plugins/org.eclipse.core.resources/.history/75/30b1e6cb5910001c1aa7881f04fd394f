@@ -1,0 +1,27 @@
+package com.srird.springsecurity.springsecurity;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.srird.springsecurity.springsecurity.services.UserDetailService;
+
+@EnableWebSecurity
+public class SpringSecurityConfigurer extends WebSecurityConfigurerAdapter {
+
+	@Autowired
+	private UserDetailService myUserDetailsService;
+
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth.userDetailsService(myUserDetailsService);
+	}
+	
+	public PasswordEncoder passwordEncoder() {
+		
+	}
+
+
+}

@@ -1,0 +1,69 @@
+Friday:
+    Spring Cloud 
+34.	Config Server in Spring boot
+35. OAuth and JWT
+
+
+Tmrw:
+14.	Java 8 features
+    Streams , Lambda Expressions,Optional 
+19.	Stream Filter and map function
+
+
+
+Comparator using java 8
+20.	Solid Principles
+
+
+
+
+
+
+
+Monolithic and Microservices
+@Transactional
+If two methods are having the same path but different HTTP methods
+Profiles
+Circuit breaker pattern
+Hystrix command
+Calling ExternalAPI update (Rollback)
+ArrayList and vector
+@Entity
+Logger
+actuator usage
+
+hoe set the tomeout for API.
+
+
+hashMap Internal working
+
+
+
+Comparator and Comparable difference
+
+== and equals difference
+
+Stingbuffer and StringBuilder
+
+Passing null argument to the methods
+
+
+String a = "kumar";
+String b = "ram"
+Sting c = "manju"
+Sting d = "manju"
+Sting e = new String("manju");
+String f = new String("ram");
+c==d
+c.equals(e)
+c==e
+b==f
+
+
+
+
+
+
+
+
+

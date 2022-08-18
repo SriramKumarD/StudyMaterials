@@ -1,0 +1,142 @@
+:::::::::::Fiserv::::::::
+
+what are the best practices to write a rest API ?
+
+@ResponseStatus
+
+ExceptionHandling 
+
+@Put and @Patch @POST
+
+@PathVarible @QueryParam when to use
+
+FrontController architecture
+
+stringbuffer and stringbuiler
+
+filters
+
+Stream 
+
+Lambda expressions
+
+Default and static methods
+
+Spring MVC
+
+what will happen when running the SpringbootApplication class
+
+what is Dispatcher servlet
+
+Global Exception Handling
+
+Move the zero to end of the array
+
+Joins
+
+How to assign the value in lambda function
+
+How we can handle the security in Rest API.
+
+In mirco services what design pattern is following when one service down or something
+
+fallback methods
+
+What webcontainer in Springboot
+
+::::::::::Ping Idenity:::::::::::::::::
+
+concurrenthashMap
+Multithreading
+Thread Life cycle 
+Wait 
+notifyAll
+Synchronized
+DesignPattern
+@ResponseStatus
+What are design patterns are used in Microservice.
+
+
+
+::::::::: BNP:::::::::::::
+
+StreamAPI
+Optional 
+Microservices
+SpringBoot
+@OneToMany(Cascde=cascadeType.ALL,fetch= fetchType.LAZY)
+NativeQuery
+@NamedQuery
+@Query
+fetch
+
+
+
+::::::::Cyber Security::::::::::::::;
+
+
+
+
+HashMap intreral working 
+Why arrayList is not synchronized
+ArrayList internal working
+Set internal working
+Bean life cycle 
+Default scope
+@Qualifer
+@Autowired
+@Primary
+
+
+
+
+:::::::::::::FEDEX:::::::::::
+
+
+	@RestController vs @Controller
+	@ManyToMany Annotation - CascadeType, FetchType
+	@Column (length, nullable)
+	Native Query and Named Query
+	@Transactional
+    Profiles in Spring Boot 
+	PUT vs PATCH
+    showSql flag and then property to log sql query parameters
+    PathParam vs QueryParam
+	Immutable class
+	singleton and factory design pattern 
+	
+	
+
+
+
+
+::::::::::::CORE JAVA::::::::::::::::::::
+
+
+Core Java
+What is hashcode?
+What is the use of hashcode.
+Why we need to override hashcode and equals.
+how to create a immutable class.
+how string works internally.
+what does immutable means tell with example.
+what is internal working of hash map
+differnece between ArrayList and Linked List
+Why LinkedList is faster interms of adding and removing than ArrayList
+What is serialization.
+what is transcient
+what is marker interface and its uses
+ways to create object
+
+
+
+
+
+https://www.cloudflare.com/en-in/learning/ssl/why-is-http-not-secure/#:~:text=HTTPS%20is%20HTTP%20with%20encryption,uses%20HTTPS%20has%20https%3A%2F%2F.
+
+
+https://howtodoinjava.com/best-practices/solid-principles/
+
+https://restfulapi.net/security-essentials/
+
+https://www.partech.nl/nl/publicaties/2020/07/9-trending-best-practices-for-rest-api-development#

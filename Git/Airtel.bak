@@ -1,0 +1,237 @@
+1) HastSet internal working
+2) HashMap internal working
+3) Profiles -> Microservices
+4) How to communicate one API to another API (RestTemplate synch) -> Asynch (WebclientBuilder)
+5) Post and Put ()
+6) Exception Handling in spring boot
+7) @Controller Advice
+Class A {
+	printA()
+	
+	
+}
+
+class B extends A{
+	printA();
+	get();
+
+}
+
+class main {
+ A obj = new B();
+ 
+ obj.get(); //What will return?
+}
+
+9) @HystrixCommand
+
+10) Actuator
+11) Production -> How to handle that 
+
+
+
+StreamAPI
+Optional 
+
+
+Microservices
+SpringBoot
+@OneToMany(Cascde=cascadeType.ALL,fetch= fetchType.LAZY)
+NativeQuery
+@NamedQuery
+@Query
+fetch
+
+
+What is Predicate 
+
+
+
+Serializable
+
+Serializable Singleton
+Clonable Singleton
+
+
+
+Java :
+
+Aggregation and Composition
+Java memory Management
+
+0s 1s 2s 
+
+0,1,2,0,1,2,2
+
+0,0,1,1,2,2,2
+
+
+Problem solving - One question
+
+Springboot related questions and Microservices
+
+System design 
+
+
+
+
+
+
+
+
+
+https://www.jobsincopenhagen.com/
+
+https://eth-gethired.ch/en/
+
+Problem 1 : 
+
+Given a string ‘str’ of digits and an integer ‘n’, build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
+Input: str = "121198", n = 2
+Output: "1118"
+
+str = "1432219"
+n=3;
+
+
+Problem 2: 
+
+Find a missing element in array
+
+Problem 3:
+
+Valid Parentheses
+
+
+String s= {{{}}}{
+
+is a valid one 
+
+What a standards we needs to follow to build a Microservice Architecture
+
+Hystrix Command
+
+Problem 4: Star Diamond printing
+Java 8 concepts
+SOLID design principle
+quality Gates in jenkins
+design patterns
+SDLC concepts
+Agile Flow
+UNIT Testing with Mockito
+Microservices patterns like SAGA, CQRS, event driven architecture, Security, API gateway, CAP theorem, SQL VS NO SQL databases.
+Java streams and parallel streams
+Time and space complexity calculations of algorithm
+Spring security.
+
+
+
+
+1) HashMap internal working
+2) Comparable and Comparator 
+3) Composition and Aggregation
+4) Consumer and Suppiler 
+5) Funcation Interface
+6) Microservice architecture
+7) Soild prinples
+8) Actuator
+7) @profiles
+8) Aynch rest call
+9) POST PUT PATCH
+10) Cascade in hibernate 
+11) First and second level cache
+12) @Transactionl internal working
+
+
+Count number of all employees form list with similar names and age>30
+Employee eList = list.stream.filter(s -> (s.age > 30)).collect(Collectors.list);
+
+Java 8 summingInt
+
+SQL questions
+
+second maximum salary 
+truncate and Delete in sql
+
+
+
+
+/*
+ * Click `Run` to execute the snippet below!
+ */
+
+import java.io.*;
+import java.util.*;
+
+/*
+ * To execute Java, please define "static void main" on a class
+ * named Solution.
+ *
+ * If you need more classes, simply define them inline.
+ */
+
+class Solution {
+  public static void main(String[] args) {
+
+    List<Company> list//list company 
+    Employee(id, name,salary);
+    Map<Integer, Inetger> map = new HashMap<Integer, Integer>();
+    AtomicInteger total;
+    list.stream.forEach(s -> {
+         s.employeeList.forEach(
+            emp -> {
+              total+= emp.salary;
+            }
+          )
+          map.put(s.id, total)
+    });
+    ArrayList<String> strings = new ArrayList<String>();
+    strings.add("Hello, World!");
+    strings.add("Welcome to CoderPad.");
+    strings.add("This pad is running Java " + Runtime.version().feature());
+
+    for (String string : strings) {
+      System.out.println(string);
+    }
+  }
+}
+
+
+
+
+Microservice -> Which design pattern
+
+Design pattern -> questions
+
+Object pool design pattern 
+Factory design pattern
+Singleton design pattern
+Joining two tables in JPA
+why string is immutable
+
+Java8 questions:
+
+-> Java 8 features.
+-> Consumer,Suppiler, BiConsumer and predicate.
+-> collect (total salary).summingint
+-> 
+
+
+
+
+
+problem 1 : 
+
+  0s, 1s and 2s sorting 
+  
+  
+input: {0, 1, 2, 0, 1, 2}
+otput: {0, 0, 1, 1, 2, 2}
+
+2 : Longest Palindromic sequence 
+
+
+20.	Solid Principles
+
+
+ 

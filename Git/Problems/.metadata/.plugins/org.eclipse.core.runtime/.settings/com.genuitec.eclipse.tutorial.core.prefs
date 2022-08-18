@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+registered.tutorials=vue101,react101
+tutorial.react101.addedOn=1619841657649
+tutorial.react101.completed=true
+tutorial.react101.lastCompleted=11
+tutorial.react101.location=C\:\\Users\\srird\\.codemix\\cache\\react101.codemix-tutorial
+tutorial.react101.title=React 101\: Create a Simple Web App
+tutorial.react101.type=FILE
+tutorial.vue101.addedOn=1619841630275
+tutorial.vue101.completed=false
+tutorial.vue101.lastCompleted=-1
+tutorial.vue101.location=C\:\\Users\\srird\\.codemix\\cache\\vue101.codemix-tutorial
+tutorial.vue101.title=Vue.js 101\: Create a Simple App
+tutorial.vue101.type=FILE

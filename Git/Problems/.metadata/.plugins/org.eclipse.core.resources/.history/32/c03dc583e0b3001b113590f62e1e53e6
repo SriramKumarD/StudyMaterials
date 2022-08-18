@@ -1,0 +1,15 @@
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+public class Scheduletask {
+
+
+    public static void main(String[] args) throws InterruptedException {
+    	ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
+    	
+    	scheduledExecutorService.scheduleWithFixedDelay(() -> {
+    	     System.out.println("runnable start"); try { Thread.sleep(5000); System.out.println("runnable end");} catch
+    	     (InterruptedException e) { // TODO Auto-generated catch block
+    	     e.printStackTrace(); } }, 2, 7, TimeUnit.SECONDS);
+}

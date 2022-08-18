@@ -1,0 +1,17 @@
+
+public class StaticCls {
+	int count = 0;
+	
+	StaticCls(){
+		count++;
+		System.out.println("Count "+ count);
+	}
+
+	public static void main(String[] args) {
+		StaticCls obj1 = new StaticCls();
+		StaticCls obj2 = new StaticCls();
+		StaticCls obj3 = new StaticCls();
+
+	}
+
+}

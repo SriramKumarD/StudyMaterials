@@ -1,0 +1,7 @@
+package com.srird.springsecurityjwt;
+
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class SecurityConfiguer extends WebSecurityConfigurerAdapter {
+
+}

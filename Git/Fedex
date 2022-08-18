@@ -1,0 +1,62 @@
+
+Program:
+1.	Shuffle array
+2.	String -> return Character with Count
+
+Questions:
+1.	@RestController vs @Controller
+2.	@ManyToMany Annotation - CascadeType, FetchType
+3.	@Column (length, nullable)
+4.	Native Query and Named Query
+
+
+Thursday:
+Spring Cloud 
+34.	Config Server in Spring boot
+
+Tmrw:
+14.	Java 8 features
+    Streams , Lambda Expressions,Optional 
+19.	Stream Filter and map function
+20.	Solid Principles
+
+
+
+18.	Optional Classes in JPA
+22.	If we delete the child row the parent row shouldn’t be deleted, how to handle this in JPA at annotation level
+23.	Annotation to create a third table based on mapping
+
+5.	@Transactional
+30.	Profiles in Spring Boot 
+31.	CICD pipeline
+32.	How to add a step to CICD pipeline
+35.	Default response configuration based on processing time and timelimiter annotation for response
+
+
+6.	PUT vs PATCH
+7.	showSql flag and then property to log sql query parameters
+8.	PathParam vs QueryParam
+9.	Request Processing along with filters
+10.	Different response codes
+11.	Arraylist and Vector
+12.	How to make an arraylist thread safe
+13.	HashMap vs HashTable
+15.	Functional Interface
+16.	How to create custom functional interface
+17.	A functional interface can have how many static methods
+
+
+
+21.	Singleton class creation (with serializable and Cloneable concept)
+24.	@Column - length and nullable property
+25.	Blob column definition in JPA
+
+26.	Rollback mechanism between Microservices - Circuit Breaker Pattern
+
+27.	End to end to create POST call - how the request will be processed
+
+28.	Conversion of DTO object to entity object -> Mapping part
+29.	Annotation to consume the request body
+33.	Dynamic Refresh - Properties refresh
+36.	Hystrix commands
+

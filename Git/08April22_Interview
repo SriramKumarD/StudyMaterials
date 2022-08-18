@@ -1,0 +1,32 @@
+Classloader
+PUT vs POST (Difference, Which one to use to do both create and update)
+Aggregation and Composition Eg
+Immutable class creation
+Singleton (Reflection, Serializable)
+readResolve and WriteReplace
+HashSet, TreeSet
+HashMap, TreeMap
+Multithreading(Executor, Future)
+Factory Design Pattern
+HashMap (Put Method, hashCode and Equals method)
+DAO Layer  & Annotation
+JMS Implementation
+Security Implementation
+Controller Annotation, DAO layer class annotation
+SQL Query  - Select highest salary emp in each dept
+Emp -> id, name, deptId, salary
+Dept -> deputed, name
+NOSQL Database
+Elastic Search
+Spring scope
+Junit - Mockito, Power Mockito
+Java Streams filter highest salary emp in each dept and put in a map<deptname, empObject>
+Interface - default and static methods
+Lambda Expressions
+Singleton Class
+ActiveMq vs RabbitMq
+Synchronised
+Multithreading -> Runnable interface
+JaxRs vs Jackson
+Prevent Singleton class to extend by another class
+Interface - method default access modifiers
